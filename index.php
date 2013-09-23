@@ -5,14 +5,14 @@ require_once("config.php");
 <head>
 <meta http-equiv="refresh" content="3600">
 <link rel="stylesheet" type="text/css" href="<?=$config['BaseURL']?>css/apad10.css" />
-<script type="text/javascript" src="<?=$config['BaseURL']?>js/clock.js"></script>
-<script type="text/javascript" src="<?=$config['BaseURL']?>js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="<?=$config['BaseURL']?>js/sh-panel.js"></script>
+<script type="text/javascript" src="<?php echo $config['BaseURL']?>js/clock.js"></script>
+<script type="text/javascript" src="<?php echo $config['BaseURL']?>js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="<?php echo $config['BaseURL']?>js/sh-panel.js"></script>
 </head>
 <body onLoad="updateClock();">
 <center>
 <br />
-<a href="<?=$config['BaseURL']?>"><img src="<?=$config['HeaderLogo']?>" border="0" /></a>
+<!--<a href="<?php echo $config['BaseURL']?>"><img src="<?php echo $config['HeaderLogo']?>" border="0" /></a>-->
 <br />
 <div id="serviceResponse">&nbsp;</div>
 <br />
